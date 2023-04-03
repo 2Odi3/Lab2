@@ -1,0 +1,22 @@
+.fo{
+    background-color: white;
+    border-radius: 20px;
+}
+.dropdown-submenu .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    margin-left: .5rem;
+    min-width: 10rem;
+    display: none;
+  }
+  
+  .dropdown-submenu:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 0.125rem;
+    margin-top: 0;
+  }
